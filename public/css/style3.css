@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(203, 255, 242);
+}
+
+.D1{
+    background-image: url(../images/banner.jpg);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(127, 255, 212, 0.267);
+}
+
+.container{
+    margin-top: 10px;
+    width: 990px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logosite img{
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.nome_site{
+    color: white;
+}
+
+.imgusuario img{
+    max-width: 50px;
+    max-height: 50px;
+    margin: 10px;
+}
+
+.menu_option{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(127, 255, 212, 0.267);
+    border-bottom:solid 1px;
+}
+
+.menu{
+    display: flex;
+}
+
+nav ul, nav li{
+    list-style-type: none;
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color:rgb(32, 32, 32);
+    transition: .2s cubic-bezier(.5, .03, .41,1);
+}
+
+nav .active a, nav a:hover{
+    background-color: rgba(127, 255, 212, 0.123);
+    color:white;
+    transition: .2s cubic-bezier(.5, .03, .41,1);
+}
+
+.pesquisa{
+    background-color: rgba(127, 255, 212, 0.267);
+    max-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#divBusca{
+    background-color:#52a1a1c5;
+    border:solid 1px;
+    border-radius:15px;
+    width:655px;
+}
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:655px;
+    border-radius: 15px;
+
+}
+
+.footer{
+    background-color: #52a1a1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.texto{
+    padding-left: 10px;
+}
+
+.texto h3{
+    display: flex;
+    justify-content: center;
+}
+
+.menu2{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.parceiros img{
+    margin: 10px;
+    margin-top: 20px;
+    max-height: 100px;
+}

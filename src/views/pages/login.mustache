@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style0.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    
+    <title>Login - Phoenix</title>
+</head>
+<body>
+    <nav class="navbar bg-light mb-4">
+        <div class="container-fluid">
+          <a class="navbar-brand m-auto" href="#">
+            <img src="/images/Logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            Phoenix
+          </a>
+        </div>
+      </nav>
+
+      <div class="container">
+        <h2>Olá! Seja Bem-Vindo</h2>
+        <h5>Preencha os campos para realizar seu cadastro</h5>
+        <form>
+          <div class="form-group mb-3 mx-auto" style="width: 400px;">
+            <label for="inputName">Nome Completo</label>
+            <input type="text" class="form-control" id="inputName1" aria-describedby="nameHelp" required>
+          </div>
+          <div class="form-group mb-4 mx-auto" style="width: 400px;">
+            <label for="inputName">Data de Nascimento</label>
+            <input type="date" class="form-control" id="inputName1" aria-describedby="nameHelp" required>
+          </div>
+          <select class="form-select mx-auto mb-3" aria-label="Default select example" style="width: 400px" >
+            <option selected>Selecione um gênero</option>
+            <option value="1">Feminino</option>
+            <option value="2">Masculino</option>
+            <option value="3">Outro...</option>
+          </select>
+          <div class="form-group mb-3 mx-auto" style="width: 400px;">
+            <label for="inputEmail">E-mail</label>
+            <input type="email" class="form-control" id="inputEmail1" required>
+          </div>
+          <div class="form-group mb-3 mx-auto" style="width: 400px;">
+            <label for="inputPassword">Crie uma Senha</label>
+            <input type="password" class="form-control" id="inputPassword1" required>
+          </div>
+          <div class="form-group mb-4 mx-auto" style="width: 400px;">
+            <label for="inputPassword">Confirmar Senha</label>
+            <input type="password" class="form-control" id="inputPassword1" required>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Eu li e aceito todos os <a href="">Termos de Uso</a> e <a href="">Politicas de Privacidade</a>.
+            </label>
+          </div>
+          <button type="button" class="btn mt-3 mx-auto">Cadastrar</button>
+        </form>
+      </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+form .form-check{
+    display: flex;
+    justify-content: center;
+}
+
+form .btn{
+    background-color: rgb(25, 218, 201);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 20px -1px rgba(0,0,0,0.39);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2{
+    margin-bottom: 20px;
+    
+}
+
+.container h5{
+    margin-bottom: 50px;
+    
+}
